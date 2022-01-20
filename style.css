@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  display: flex;
+}
+
+header .icon-alura{
+  width: 31.09px;
+  height: 45px;
+  margin: 10px;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  color: #3f525f;
+
+}
+
+.box {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #D3DEDC;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: #7C99AC;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+  border-bottom: solid 5px #607b8d;
+  width: 100%;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 2px solid #607b8d;
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 100px;
+}
+
+#msg-titulo{
+  color: #7C99AC;
+}
+
+.msg, .form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form #msg-titulo,
+.form #input-texto,
+.form .btn-content{
+  padding: 10px;
+}
+
+.msg #msg-titulo,
+.msg #msg,
+.msg #btn-copy{
+  padding: 10px;
+}
+
+.btn-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.btn-content #btn-encriptar,
+.btn-content #btn-desencriptar{
+ margin: 10px;
+}
+
+

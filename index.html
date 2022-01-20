@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <img class="icon-alura" src="img/logo-alura.png" alt="">
+    </div>
+    <div>
+      <h1 class="titulo">Alura Challenge #1</h1>
+    </div>
+  </header>
+  
+
+  <main class="main">
+
+    <section class="form box">
+        <h2 id="msg-titulo">Encriptador:</h2>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Solo letras minúsculas, sin acento">
+        <div class="btn-content">
+          <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+          <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+        </div>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="msg-titulo">Mensaje encriptado:</h2>
+      <input class="text-input" type="text" id="msg"></input>
+      <button onClick="copyToClipBoard()" class="btn" type="submit" value="Copiar" id="btn-copy">Copiar</button>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
