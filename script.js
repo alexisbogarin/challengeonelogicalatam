@@ -28,7 +28,7 @@ var botonDesencriptar = document.querySelector("#btn-desencriptar");
 botonEncriptar.addEventListener("click", function(event){
     event.preventDefault();
     
-    var palabra = frase.value; //texto enviado
+    var palabra = frase.value.toLowerCase(); //texto enviado
 
       const encriptado = palabra.replace(/e/gi, 'enter').replace(/i/gi, 'imes').replace(/a/gi, 'ai').replace(/o/gi, 'ober').replace(/u/gi, 'ufat');
       mensaje.value = encriptado;
